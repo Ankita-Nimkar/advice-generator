@@ -3,3 +3,16 @@
  margin:0;
  padding: 0;
 }
+
+@mixin mid{
+
+ @media screen and (min-width:543px){
+  @content;
+ }
+}
+@mixin desktop{
+
+ @media screen and (min-width:700px){
+  @content;
+ }
+}
